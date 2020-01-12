@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".fragments.WorkoutPlanDetailFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewDetailWorkoutPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_workout_plan_workout_name"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_workout_plan_detail_name"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextViewDetailWorkoutPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tv_workout_plan_workout_sets"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/TextViewDetailWorkoutPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/tv_workout_plan_workout_reps"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/TextViewDetailWorkoutPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/tv_workout_plan_workout_rest"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_workout_plan_detail_name"
+        style="@style/TextViewDetailWorkoutPlanExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_workout_plan_detail_sets"
+        style="@style/TextViewDetailWorkoutPlanExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_workout_plan_detail_name">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_workout_plan_detail_reps"
+        style="@style/TextViewDetailWorkoutPlanExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/tv_workout_plan_detail_sets">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_workout_plan_detail_rest"
+        style="@style/TextViewDetailWorkoutPlanExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

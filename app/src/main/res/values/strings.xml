@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Workouts</string>
+    <string name="error_message">Failed to load. Please try again.</string>
+    <string name="workout_plan_add">Workout Plans</string>
+    <string name="tv_workout_plan_name">Workout Plan Name:</string>
+    <string name="tv_workout_plan_workout_name">Workout Name:</string>
+    <string name="tv_workout_plan_workout_sets">Sets:</string>
+    <string name="tv_workout_plan_workout_reps">Reps:</string>
+    <string name="tv_workout_plan_workout_rest">Rest:</string>
+    <string name="et_hint_workout_plan_name">Name of the plan</string>
+    <string name="et_hint_workout_name">Name of the workout</string>
+    <string name="et_hint_workout_sets">Amount of sets</string>
+    <string name="et_hint_workout_reps">Amount of reps</string>
+    <string name="et_hint_workout_rest">Seconds of rest</string>
+    <string name="fab_add_workout_plan">Add workout plan</string>
+    <string name="bt_save_workout_text">Save</string>
+    <string name="notification_title">Workout Reminder!</string>
+    <string name="notification_content">Have you already done your workout?</string>
+    <string name="notification_channel_name" translatable="false">workoutReminder</string>
+    <string name="notification_reminder_workout_body">Try taking a break and go for a workout!</string>
+    <string name="no_thanks">No, thanks.</string>
+    <string name="workout_name">Workout:</string>
+    <string name="workout_category">Category:</string>
+    <string name="workout_muscle_group">Muscle Group:</string>
+</resources>

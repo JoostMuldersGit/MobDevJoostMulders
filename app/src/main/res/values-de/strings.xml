@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workouts</string>
+    <string name="bt_save_workout_text">speichern</string>
+    <string name="error_message">Laden fehlgeschlagen. Bitte versuche es erneut.</string>
+    <string name="et_hint_workout_name">Name des Trainings</string>
+    <string name="et_hint_workout_plan_name">Name des Plans</string>
+    <string name="et_hint_workout_reps">Anzahl der Wiederholungen</string>
+    <string name="et_hint_workout_rest">Anzahl der Sätze</string>
+    <string name="et_hint_workout_sets">Sekunden der Ruhe</string>
+    <string name="fab_add_workout_plan">Trainingsplan hinzufügen</string>
+    <string name="tv_workout_plan_name">Name des Trainingsplans</string>
+    <string name="tv_workout_plan_workout_name">Trainingsname:</string>
+    <string name="tv_workout_plan_workout_reps">Vertreter:</string>
+    <string name="tv_workout_plan_workout_rest">Sich ausruhen:</string>
+    <string name="tv_workout_plan_workout_sets">Sätze:</string>
+    <string name="workout_plan_add">Trainingspläne</string>
+    <string name="workout_muscle_group">" Muskelgruppe:"</string>
+    <string name="workout_name">" Trainieren:"</string>
+    <string name="workout_category">" Kategorie:"</string>
+    <string name="notification_title">" Trainingserinnerung!"</string>
+    <string name="notification_reminder_workout_body">" Machen Sie eine Pause und trainieren Sie!"</string>
+    <string name="notification_content">" Hast du schon trainiert?"</string>
+    <string name="no_thanks">" Nein Danke."</string>
+</resources>

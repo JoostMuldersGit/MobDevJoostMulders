@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DetailFragment">
+
+    <TextView
+        android:id="@+id/tv_workout_name_detail"
+        style="@style/TextViewWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:text="test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_workout_category_detail"
+        style="@style/TextViewWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="104dp"
+        android:text="test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_workout_muscleGroup_detail"
+        style="@style/TextViewWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="48dp"
+        android:text="test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_workout_category_detail" />
+
+    <TextView
+        android:id="@+id/tv_workout_description_detail"
+        style="@style/RecyclerViewTextViewsDetail_WorkoutsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_workout_muscleGroup_detail"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/RecyclerViewTextViewsDetail_Workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/workout_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/RecyclerViewTextViewsDetail_Workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/workout_category"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_workout_category_detail"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/RecyclerViewTextViewsDetail_Workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/workout_muscle_group"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_workout_muscleGroup_detail"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

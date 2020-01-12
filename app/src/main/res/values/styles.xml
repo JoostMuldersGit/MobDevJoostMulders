@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="RecyclerViewTextViewsHeader_Workouts">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="RecyclerViewTextViewsSubHeader_Workouts">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="RecyclerViewTextViewsDetail_Workouts">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textAppearanceLarge">?android:textAppearanceLarge</item>
+    </style>
+    <style name="RecyclerViewTextViewsDetail_WorkoutsDescription">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textAppearanceSmall">?android:textAppearanceSmall</item>
+        <item name="android:background">@drawable/rounded_corner_textview</item>
+    </style>
+    <style name="TextViewDetailWorkoutPlan">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textAppearanceLarge">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewDetailWorkoutPlanExtra">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAppearanceSmall">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextViewWorkout">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

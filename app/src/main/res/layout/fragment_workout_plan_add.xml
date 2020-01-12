@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".fragments.WorkoutPlanAddFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_workout_plan_name"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_workout_plan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_hint_workout_plan_name"
+            android:inputType="text"
+            android:textSize="16sp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_workout_plan_workout_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="67dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_workout_plan_workout_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_hint_workout_name"
+            android:inputType="text"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="63dp">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_workout_plan_workout_sets"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_workout_plan_workout_sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/tv_workout_plan_workout_sets"
+            android:inputType="number"
+            android:textSize="16sp">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_workout_plan_workout_reps"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_workout_plan_workout_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_hint_workout_reps"
+            android:inputType="number"
+            android:textSize="16sp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/et_hint_workout_rest"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_workout_plan_workout_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_hint_workout_rest"
+            android:inputType="number">
+
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_save_workout_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/bt_save_workout_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
